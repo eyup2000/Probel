@@ -27,6 +27,8 @@ public class ProbelPage {
     public WebElement institutionDetails;
     @FindBy(xpath="//label[normalize-space()='Hasta Türü']")
     public WebElement patientType;
+    @FindBy(xpath="//input[@id='TXT_HASTA_KAYIT_CEP_TEL']")
+    public WebElement cep;
 
 
 }

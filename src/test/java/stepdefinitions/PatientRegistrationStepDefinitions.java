@@ -46,13 +46,34 @@ public class PatientRegistrationStepDefinitions {
     public void user_enters_institution_details() {
         probelPage.institutionDetails.sendKeys("0");
     }
-    @When("user confirms that they are on the Patient Registration page")
-    public void user_confirms_that_they_are_on_the_patient_registration_page() {
-        Assert.assertTrue(probelPage.patientType.isDisplayed());
+    @Given("user select uyrugu as other countries except turkey")
+    public void user_select_uyrugu_as_other_countries_except_turkey() {
+
     }
-    @Then("user is on the Patient Registration page")
-    public void user_is_on_the_patient_registration_page() {
-        System.out.println("User is on the Patient Registration page");
+    @Given("User select hasta turu")
+    public void user_select_hasta_turu() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @Given("Enter all other required data under the kisi bilgileri tab")
+    public void enter_all_other_required_data_under_the_kisi_bilgileri_tab() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @Given("Enter all required data under the iletisim ve diger bilgiler tab")
+    public void enter_all_required_data_under_the_iletisim_ve_diger_bilgiler_tab() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @Given("User clicks the kaydet button.")
+    public void user_clicks_the_kaydet_button() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @Then("User assert the bilgi islem basarili pop-up")
+    public void user_assert_the_bilgi_islem_basarili_pop_up() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
     }
 
 }
